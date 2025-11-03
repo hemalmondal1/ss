@@ -1,0 +1,19 @@
+{
+  "name": "imap-proxy",
+  "version": "1.0.0",
+  "description": "IMAP Proxy for Chrome OTP Extension",
+  "main": "imap-proxy.js",
+  "scripts": {
+    "start": "node imap-proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "imapflow": "^1.0.195"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
